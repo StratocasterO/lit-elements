@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>This is a test</title>
+
+  <link rel="stylesheet" href="form_style.css">
+</head>
+
+<body onload="comprobarNavegador()">
+  <h1>¡Hola Mundo!</h1>
+  <form>
+    <label>Nombre</label>
+    <input id="formNombre" type="text" required placeholder="Nombre" />
+    <br>
+    <label>Email</label>
+    <input id="formEmail" class="green" type="email" placeholder="Tu email aquí" />
+    <br>
+    <label>Edad</label>
+    <input id="formAge" min="18" max="99" type="number" />
+    <br>
+    <label>Ubicación</label>
+    <input id="formLat" type="number" />
+    <input id="formLong" type="number" />
+    <button onclick="getLocation()">Obtener ubicación</button>
+    <p id="formAlert"></p>
+    <br><br>
+    <button onclick="saludar()">Saludar por consola</button>
+    <br>
+    <button onclick="guardar()">Guardar</button>
+    <br>
+    <button onclick="recuperar()">Recuperar</button>
+  </form>
+
+  <script src="form_script.js"></script>
+</body>
+
+</html>

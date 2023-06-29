@@ -1,0 +1,11 @@
+.green {
+    color: green;
+}
+
+form input {
+    color: red;
+}
+
+#formNombre {
+    color: blue;
+}
