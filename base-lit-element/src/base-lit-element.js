@@ -2,7 +2,10 @@ import { LitElement, html, css } from 'lit';
 
 const logo = new URL('../assets/open-wc-logo.svg', import.meta.url).href;
 
-class BaseLitElement extends LitElement {
+// LitElement base explained here: https://open-wc.org/guides/knowledge/lit-element/lifecycle/
+// and here: https://lit.dev/docs/components/lifecycle/
+
+class BaseLitElement extends LitElement { 
   static properties = {
     header: { type: String },
   }
