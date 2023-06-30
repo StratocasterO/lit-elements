@@ -15,6 +15,8 @@ class FichaPersona extends LitElement {
       border-radius: 10px;
       background-color: white;
       padding: 15px;
+      margin: 1em;
+      display: inline-block
     }
 
     img {

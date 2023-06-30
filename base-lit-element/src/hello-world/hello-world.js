@@ -8,6 +8,7 @@ class HelloWorld extends LitElement {
       background-color: white;
       border-radius: 10px;
       text-align: center;
+      margin: 1em auto
     }
 
     p {
