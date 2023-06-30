@@ -1,9 +1,25 @@
-import { LitElement, html } from 'lit-element';
+import { LitElement, html, css } from 'lit-element';
 
 class HelloWorld extends LitElement {
+  static styles = css`
+    div {
+      width: 200px;
+      height: 200px;
+      background-color: white;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    p {
+      padding: 4em 0;
+    }
+  `
+
   render() {
     return html`
-		<div>Hello world!</div>
+		<div>
+    <p>Hello world!</p>
+    </div>
 	`;
   }
 }
