@@ -1,3 +1,8 @@
+body {
+    width: 800px;
+    margin: auto;
+}
+
 .green {
     color: green;
 }
@@ -9,3 +14,5 @@ form input {
 #formNombre {
     color: blue;
 }
+
+/* añadir un par de estilos de fuente (interna y externa) */
