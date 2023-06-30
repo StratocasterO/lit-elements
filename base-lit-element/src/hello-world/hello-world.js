@@ -4,7 +4,7 @@ class HelloWorld extends LitElement {
   static styles = css`
     div {
       width: 400px;
-      height: 200px;
+      height: 140px;
       background-color: white;
       border-radius: 10px;
       text-align: center;
