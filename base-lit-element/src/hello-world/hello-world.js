@@ -3,7 +3,7 @@ import { LitElement, html, css } from 'lit-element';
 class HelloWorld extends LitElement {
   static styles = css`
     div {
-      width: 200px;
+      width: 400px;
       height: 200px;
       background-color: white;
       border-radius: 10px;
@@ -19,7 +19,7 @@ class HelloWorld extends LitElement {
   render() {
     return html`
 		<div>
-    <p>Hello world!</p>
+    <p>This is a directory of people from The Company™</p>
     </div>
 	`;
   }
