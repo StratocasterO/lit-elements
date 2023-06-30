@@ -20,15 +20,19 @@ git, BitBucket. Crear repo en la web, luego clonar y actualizar. Comandos vs VSC
 
 Web Components. Single Page Applications. Node, NPM.
 
-Inicializar un proyecto _npm init @open-wc_.
+Ejercicio inicializar un proyecto _npm init @open-wc_.
 
 Scaffolding, proyecto de muestra, componente básico.
 
-_hello_world.js_, añadir estilos.
+Ejercicio _hello_world.js_, añadir estilos.
 
 ### Día 4
 
-Componente _ficha_persona.js_. Estilos, propiedades.
+Componente _ficha_persona.js_. Estilos, propiedades. Constructor, propiedades desde atributos.
+
+**Ciclo de vida**: connected, disconnected, attributeChanged, updated... Ejercicio detectar cambios en las propiedades.
+
+Eventos (coordenadas del raton, clic, tecla, botón pulsado...), cambio de estado (estado == propiedades), podemos reaccionar a los eventos.
 
 ### Día 5
 
