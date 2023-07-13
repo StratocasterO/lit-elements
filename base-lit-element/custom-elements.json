@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0.0",
+  "readme": "",
+  "modules": [
+    {
+      "kind": "javascript-module",
+      "path": "src/base-lit-element.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "description": "",
+          "name": "BaseLitElement",
+          "members": [
+            {
+              "kind": "field",
+              "name": "header",
+              "type": {
+                "text": "string"
+              },
+              "default": "'My app'",
+              "privacy": "public",
+              "attribute": "header"
+            }
+          ],
+          "attributes": [
+            {
+              "name": "header",
+              "fieldName": "header"
+            }
+          ],
+          "superclass": {
+            "name": "LitElement",
+            "package": "lit"
+          },
+          "tagName": "base-lit-element",
+          "customElement": true
+        }
+      ],
+      "exports": [
+        {
+          "kind": "custom-element-definition",
+          "name": "base-lit-element",
+          "declaration": {
+            "name": "BaseLitElement",
+            "module": "src/base-lit-element.js"
+          }
+        }
+      ]
+    }
+  ]
+}
