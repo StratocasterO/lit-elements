@@ -2,10 +2,7 @@ import { LitElement, html, css } from 'lit';
 
 const logo = new URL('../assets/open-wc-logo.svg', import.meta.url).href;
 
-// LitElement base explained here: https://open-wc.org/guides/knowledge/lit-element/lifecycle/
-// and here: https://lit.dev/docs/components/lifecycle/
-
-class BaseLitElement extends LitElement { 
+class LitApp extends LitElement {
   static properties = {
     header: { type: String },
   }
@@ -22,7 +19,7 @@ class BaseLitElement extends LitElement {
       max-width: 960px;
       margin: 0 auto;
       text-align: center;
-      background-color: var(--base-lit-element-background-color);
+      background-color: var(--lit-app-background-color);
     }
 
     main {
@@ -55,7 +52,7 @@ class BaseLitElement extends LitElement {
 
   constructor() {
     super();
-    this.header = 'My app';
+    this.header = 'Aplicación con Lit Element';
   }
 
   render() {
@@ -64,7 +61,7 @@ class BaseLitElement extends LitElement {
         <div class="logo"><img alt="open-wc logo" src=${logo} /></div>
         <h1>${this.header}</h1>
 
-        <p>Edit <code>src/BaseLitElement.js</code> and save to reload.</p>
+        <p>Edit <code>src/LitApp.js</code> and save to reload.</p>
         <a
           class="app-link"
           href="https://open-wc.org/guides/developing-components/code-examples/"
@@ -88,4 +85,4 @@ class BaseLitElement extends LitElement {
   }
 }
 
-customElements.define('base-lit-element', BaseLitElement);
+customElements.define('lit-app', LitApp);

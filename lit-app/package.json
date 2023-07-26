@@ -1,8 +1,8 @@
 {
-  "name": "base-lit-element",
-  "description": "Webcomponent base-lit-element following open-wc recommendations",
+  "name": "lit-app",
+  "description": "Webcomponent lit-app following open-wc recommendations",
   "license": "MIT",
-  "author": "base-lit-element",
+  "author": "lit-app",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

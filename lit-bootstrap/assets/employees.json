@@ -1,0 +1,64 @@
+{
+    "employees": [
+        {
+        "name": "Camilo García",
+        "years": 15,
+        "photo": { 
+            "src": "./assets/avatar1.png", 
+            "alt": "senior employee"
+            },
+        "profile": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "teach": true
+        },
+        {
+        "name": "Edisson Rodríguez",
+        "years": 2,
+        "photo": { 
+            "src": "./assets/avatar2.png", 
+            "alt": "young employee"
+            },
+        "profile": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "teach": false
+        },
+        {
+        "name": "Oscar López",
+        "years": 7,
+        "photo": { 
+            "src": "./assets/avatar1.png", 
+            "alt": "senior employee"
+            },
+        "profile": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ",
+        "teach": true
+        },
+        {
+        "name": "Sandra Gutiérrez",
+        "years": 3,
+        "photo": { 
+            "src": "./assets/avatar3.png", 
+            "alt": "senior employee"
+            },
+        "profile": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "teach": false
+        },
+        {
+        "name": "Omar Olmedo",
+        "years": 15,
+        "photo": { 
+            "src": "./assets/avatar2.png", 
+            "alt": "senior employee"
+            },
+        "profile": "Profesor de programación: frontend, backend y data science.",
+        "teach": true
+        },
+        {
+        "name": "Maria Martínez",
+        "years": 8,
+        "photo": { 
+            "src": "./assets/avatar3.png", 
+            "alt": "senior employee"
+            },
+        "profile": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit.",
+        "teach": false
+        }
+    ]
+}

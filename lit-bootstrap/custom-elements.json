@@ -4,12 +4,12 @@
   "modules": [
     {
       "kind": "javascript-module",
-      "path": "src/base-lit-element.js",
+      "path": "src/lit-bootstrap.js",
       "declarations": [
         {
           "kind": "class",
           "description": "",
-          "name": "BaseLitElement",
+          "name": "LitBootstrap",
           "members": [
             {
               "kind": "field",
@@ -32,17 +32,17 @@
             "name": "LitElement",
             "package": "lit"
           },
-          "tagName": "base-lit-element",
+          "tagName": "lit-bootstrap",
           "customElement": true
         }
       ],
       "exports": [
         {
           "kind": "custom-element-definition",
-          "name": "base-lit-element",
+          "name": "lit-bootstrap",
           "declaration": {
-            "name": "BaseLitElement",
-            "module": "src/base-lit-element.js"
+            "name": "LitBootstrap",
+            "module": "src/lit-bootstrap.js"
           }
         }
       ]
